@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+inp = input("Give me a number: ")
+
+inp = float(inp)
+if inp.is_integer():
+    print("This number is an integer.")
+else:
+    print("This number is an decimal.")
