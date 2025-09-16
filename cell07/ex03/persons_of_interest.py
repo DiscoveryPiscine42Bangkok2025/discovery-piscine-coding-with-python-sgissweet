@@ -5,7 +5,7 @@ def famous_births(h_figure):
     for key, val in sorted_h_figure.items():
         name = val["name"]
         date = val["date_of_birth"]
-        print(f"{name} is a great scientist born in {date}")
+        print(f"{name} is a great scientist born in {date}.")
 
 women_scientists = {
     "ada": { "name": "Ada Lovelace", "date_of_birth": "1815" },
