@@ -8,5 +8,7 @@ if len(sys.argv) == 2:
         if char == 'z':
             z_txt += 'z'
     print(z_txt)
+    if z_txt == "":
+        print("none")
 else:
     print("none")
